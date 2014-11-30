@@ -88,7 +88,7 @@ class ADCameraViewController: UIViewController, UIImagePickerControllerDelegate,
         alert.title = "Saved!"
         alert.message = "Your picture was saved to Camera Roll"
         alert.delegate = self
-        alert.addButtonWithTitle("Awesome")
+        alert.addButtonWithTitle("Great!")
         alert.show()
     }
     

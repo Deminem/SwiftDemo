@@ -30,8 +30,8 @@ import UIKit
 
 class ADTableViewController: UITableViewController {
 
-    // 10 programing languages according, you should learn right now
-    // to mashable - http://mashable.com/2014/01/21/learn-programming-languages/
+    /*	According to mashable - 10 programming languages, you should learn right now
+    	http://mashable.com/2014/01/21/learn-programming-languages	*/
     var plArray:NSMutableArray = [
         "Swift",
         "Objective-C",
@@ -73,7 +73,7 @@ class ADTableViewController: UITableViewController {
     //MARK: - Table view data source
     override func numberOfSectionsInTableView(tableView: UITableView?) -> Int {
         // Return the number of sections.
-        return 1
+        return 1;
     }
 
     override func tableView(tableView: UITableView?, numberOfRowsInSection section: Int) -> Int {
